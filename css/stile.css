@@ -1,0 +1,21 @@
+/*RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: #fffffe;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
