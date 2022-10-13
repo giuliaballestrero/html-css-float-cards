@@ -25,33 +25,40 @@ body {
 main h1 {
     color: #e4306f;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 main>p {
     text-align: center;
     width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 
-section div {
+section>div {
     background-color:black;
-    width: calc((100% / 3) - 1rem);
+    box-shadow: 5px 5px 5px 5px lightgray;
+    width: calc((100% / 3) - 1.5rem);
     margin-bottom: 2rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     color: #fffffe;
 }
 
 img {
-    width: calc(100% / 3);
-    height: 100%;
+    width: 100px;
+    height: 100px;
     vertical-align: middle;
 }
 
-div span {
-    line-height: 1.5rem;
+
+span {
+    display: block;
+
+}
+
+span>a {
+    color: #3baddd;
 }
 
 .personalname {
