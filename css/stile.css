@@ -31,5 +31,14 @@ main h1 {
 main>p {
     text-align: center;
     padding: 2rem;
+    width: 100%;
 }
 
+section div {
+    background-color: black;
+    width: calc(100% / 3);
+}
+
+div img {
+    width: calc(100% / 3);
+}
