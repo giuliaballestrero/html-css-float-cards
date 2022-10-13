@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
 }
 
-main h1 {
+main h1, h2 {
     color: #e4306f;
     text-align: center;
     padding-top: 2.5rem;
@@ -51,15 +51,10 @@ img {
     vertical-align: middle;
 }
 
-
-span {
-    display: block;
-
-}
-
-span>a {
+a {
     color: #3baddd;
 }
+
 
 .personalname {
     font-weight: bold;
@@ -74,4 +69,8 @@ span>a {
      float: right;
      padding-right: 2.5rem;
      padding-top: 1rem;
+}
+
+#specialguest {
+    padding-top: 1rem;
 }
