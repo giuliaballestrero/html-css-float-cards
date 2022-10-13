@@ -30,15 +30,33 @@ main h1 {
 
 main>p {
     text-align: center;
-    padding: 2rem;
     width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
+
 section div {
-    background-color: black;
+    background-color:black;
     width: calc(100% / 3);
+    margin-bottom: 2rem;
+    color: #fffffe;
 }
 
 div img {
     width: calc(100% / 3);
+    height: 100%;
+    vertical-align: middle;
+}
+
+div>span {
+    te
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+     float: right;
 }
