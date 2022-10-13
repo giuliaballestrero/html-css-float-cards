@@ -13,9 +13,23 @@
 
 body {
     background-color: #fffffe;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
 }
 
 .container {
     width: 70%;
     margin: 0 auto;
 }
+
+main h1 {
+    color: #e4306f;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+main>p {
+    text-align: center;
+    padding: 2rem;
+}
+
