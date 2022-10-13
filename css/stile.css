@@ -38,19 +38,25 @@ main>p {
 
 section div {
     background-color:black;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 1rem);
     margin-bottom: 2rem;
+    margin-left: 1rem;
     color: #fffffe;
 }
 
-div img {
+img {
     width: calc(100% / 3);
     height: 100%;
     vertical-align: middle;
 }
 
-div>span {
-    te
+div span {
+    line-height: 1.5rem;
+}
+
+.personalname {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .float-left {
