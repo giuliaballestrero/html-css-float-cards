@@ -72,4 +72,6 @@ span>a {
 
 .float-right {
      float: right;
+     padding-right: 2.5rem;
+     padding-top: 1rem;
 }
