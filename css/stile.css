@@ -36,7 +36,7 @@ main>p {
 }
 
 
-section>div {
+.card{
     background-color:black;
     box-shadow: 5px 5px 5px 5px lightgray;
     width: calc((100% / 3) - 1.5rem);
@@ -65,12 +65,10 @@ a {
     float: left;
 }
 
-.float-right {
-     float: right;
-     padding-right: 2.5rem;
-     padding-left: 3.5rem;
-     padding-top: 1rem;
-     width: calc(100% - 100px);
+.text {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: calc(100% - 100px);
 }
 
 #specialguest {
